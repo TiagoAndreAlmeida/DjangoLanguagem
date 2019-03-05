@@ -25,7 +25,7 @@ SECRET_KEY = '=%9k$(a!@z$0y1rmx5rh)7fc0^rm*%57iz1v2ip0op=$#lqkcb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.5', '127.0.0.1']
 
 
 # Application definition
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
